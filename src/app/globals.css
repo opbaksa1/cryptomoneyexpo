@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@theme{--color-ink:#060a12;--color-panel:#0c1322;--color-line:#1b2a45;--color-ice:#67e8f9;--color-amber:#fbbf24;--color-muted:#8fa3c4;--font-mono:ui-monospace,"JetBrains Mono",monospace}
+html{scroll-behavior:smooth}
+body{background:var(--color-ink);color:#e8eefb;font-family:Pretendard,"Noto Sans KR",system-ui,sans-serif;line-height:1.7;
+background-image:linear-gradient(rgba(103,232,249,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(103,232,249,.04) 1px,transparent 1px);background-size:48px 48px;background-attachment:fixed}
+a:focus-visible,summary:focus-visible{outline:2px solid var(--color-ice);outline-offset:2px}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
