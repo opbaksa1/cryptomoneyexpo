@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+export const dynamic = "force-static";
 import { PAGES } from "@/lib/pages";
 import { SITE } from "@/lib/site";
 export default function sitemap():MetadataRoute.Sitemap{const d=new Date(SITE.updated);
